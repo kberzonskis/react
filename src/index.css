@@ -11,3 +11,101 @@ body {
   background-color: #f0f0f0;
   color: #333;
 }
+
+.calculator {
+  max-width: 400px;
+  margin: 2 auto;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+} 
+
+.logos { 
+display: flex;
+justify-content: center;
+align-items: center;
+width: 30%;
+margin-left: 20px;
+} 
+
+
+/* ----------------------- form register*-----------------------------/ 
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    border-radius: 10px;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    border-radius: 10px;
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #eb9650;
+  border-radius: 10px;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+  
+ /* ----------------------- form register end*-----------------------------*/
+
+ .registerPage { 
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+ }
+
+ .thinking{ 
+
+width: 20%;
+
+}
+ 
+.Logintitle { 
+display: flex;
+ flex-direction: column;
+ align-items: center;
+
+}
