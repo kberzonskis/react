@@ -1,4 +1,4 @@
-import { RegisterForm } from "../components/forms/RegisterForm"
+import { RegisterForm } from "../components/form/RegisterForm"
 export function Register({child}) {
 return (
 

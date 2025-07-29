@@ -1,4 +1,4 @@
-import { LoginForm } from '../components/forms/LoginForm';
+import { LoginForm } from '../components/form/LoginForm';
  import merc from '../img/thinking.jpg';
 
 export function Login() {
